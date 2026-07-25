@@ -135,7 +135,7 @@ h1 {
 .teddy-hug {
     width: 200px;
     margin: 0 auto;
-    transform: scale(0);
+    transform: scale(1);
 }
 
 @keyframes gradientBG {

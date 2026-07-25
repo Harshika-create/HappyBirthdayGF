@@ -146,3 +146,16 @@ document.addEventListener('mousemove', (e) => {
 
 // Create initial floating elements
 setInterval(createFloatingElement, 2000);
+const birthdayImages = ["d1.jpg", "d2.jpg", "d3.jpg"];
+let imageIndex = 0;
+
+setInterval(() => {
+    imageIndex++;
+
+    if (imageIndex >= birthdayImages.length) {
+        imageIndex = 0;
+    }
+
+    document.getElementById("birthday-image").src = birthdayImages[imageIndex];
+
+}, 2000);

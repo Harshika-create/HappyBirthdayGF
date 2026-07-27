@@ -146,7 +146,7 @@ document.addEventListener('mousemove', (e) => {
 
 // Create initial floating elements
 setInterval(createFloatingElement, 2000);
-const birthdayImages = ["d1.jpg", "d2.jpg", "d3.jpg"];
+const birthdayImages = ["d1.jpeg", "d2.jpeg", "d3.jpeg"];
 let imageIndex = 0;
 
 setInterval(() => {
